@@ -1,51 +1,91 @@
--- import: gbppimentel.github.io/fastn-activity/assets
+-- import: fifthtry.github.io/doc-site as ds
+-- import: fifthtry.github.io/admonitions as cbox
+-- import: fifthtry.github.io/saturated-sunset-cs
 
+-- import: gargajit.github.io/expander as e
+-- import: ftd-test/assets
 
+-- ds.page: 
+site-logo: $assets.files.images.logo.png
+colors: $saturated-sunset-cs.main
 
--- ds.page: Welcome to your [FASTN site](https://fastn.io/)
+-- ds.h1: Hi! I'm Glenn 👋
+;; text-align: justify
 
--- ftd.column:
+Hi, I'm **Glenn Bernard Pimentel**, a 22-year-old Filipino who is enthusiastic about learning and continually enhancing my skills in art and technology. I love staying physically active, seeking out exciting experiences, and I have a special fondness for cats. With an adventurous mindset and an insatiable curiosity, I'm always eager to expand my knowledge and explore new opportunities for personal and professional growth. Feel free to learn more about me in the additional information provided below.
+
+-- ftd.text: 📚 **Random Fact #1:** I have a strong inclination towards music, and I enjoy both singing and playing musical instruments.
+background.solid: #fba683
+border-width.px: 1
+width: fill-container
+text-align: center
+
+-- ds.h1: About Me 🐱
+
+-- ftd.image:
+src: $assets.files.images.photo.jpg
 align-self: center
 
--- chat.message-left: Yo! I am Amit Upadhyay, CEO of FifthTry, welcome to the new world of FTD.
+-- ds.h2: Hobbies 🔥
 
--- ds.markdown: 
+-- ds.h3: Recreation
 
-You reached the right place, and from here let me assure you, your FTD journey is going superfast. 🙂
+During my free time, I thoroughly enjoy engaging in a wide variety of activities. Some of my favorites include:
 
--- end: chat.message-left
+- **Drawing**
+    - Digital - Photoshop, Procreate, Sketchbook Autodesk
+    - Traditional - Graphite Pencil, Charcoal
+- **Music** - Singing and Instruments
+    - Guitar
+    - Bass
+    - Keys
+- **Gaming** - I play a lot of games, and grew up with it.
+    - Sports - Basketball
+    - Consoles - Playstation, Nintendo, PC
 
--- chat.message-right:  😊 Liking this chat component?
+-- ftd.text: 📚 **Random Fact #2:** I have several cats, and one dog, with some of the felines being adopted from the street and others being offspring of my existing pets.
+background.solid: #fba683
+border-width.px: 1
+width: fill-container
+text-align: center   
 
--- ds.markdown:
+-- ds.h3: Programming 
 
-[Click here to learn more](https://fifthtry.github.io/bling/chat/)
-👍
+I also code and have a deep passion for web and game development. I possess proficiency in multiple programming languages, including:
 
--- end: chat.message-right
+- HTML, CSS, JS
+    - Bootstrap
+- Python
+- C/C++
 
--- end: ftd.column
+-- ds.h2: Photos 📷
 
--- ds.h1: How to use?
+Apart from my interests in art, music, gaming, and programming, I also have a fulfilling personal life that includes a wonderful girlfriend whom I love spending time and creating memories with.
 
-It's very simple like making a sandwich. Create new `.ftd` file and just say:
+-- ds.h3: Photo Album
 
--- ds.code: `-- ds.page` 
-lang: ftd
+-- ftd.row:
+width: fill-container
 
-\-- ds.page: Your page title goes here
+-- ftd.image:
+src: $assets.files.images.image1.png
+align-self: center
 
-Your page content goes here.
+-- ftd.image:
+src: $assets.files.images.image2.png
+align-self: center
 
+-- ftd.image:
+src: $assets.files.images.image3.png
+align-self: center
 
--- ds.h1: Need sidebar at right side of page?
+-- end: ftd.row
 
-Here it is, [use this document](https://fifthtry.github.io/doc-site/docs/right-sidebar/).
-
-
--- ds.h1: 👀 Learn FTD and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.dev/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: 📚 **Random Fact #3:** I love the Legend of Zelda series. I have playe thousand of hours of it.
+background.solid: #fba683
+border-width.px: 1
+width: fill-container
+text-align: center   
 
 -- end: ds.page
+  

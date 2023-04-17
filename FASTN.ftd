@@ -1,9 +1,8 @@
 -- import: fastn
 
--- fastn.package: gbppimentel.github.io/fastn-activity
+-- fastn.package: ftd-test
 
--- fastn.dependency: fifthtry.github.io/doc-site as ds
--- fastn.dependency: fifthtry.github.io/bling as bling
-
--- fastn.auto-import: bling/chat as chat
--- fastn.auto-import: ds
+-- fastn.dependency: fifthtry.github.io/doc-site
+-- fastn.dependency: gargajit.github.io/expander
+-- fastn.dependency: fifthtry.github.io/admonitions
+-- fastn.dependency: fifthtry.github.io/saturated-sunset-cs
