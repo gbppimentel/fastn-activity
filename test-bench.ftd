@@ -1,0 +1,167 @@
+-- ftd.text: column
+padding.px: 5
+margin-bottom.px: 10
+text-align: center
+border-width.px: 1
+background.solid: #fba683
+width: fill-container
+;; height: fill-container
+
+
+-- ftd.column:
+
+-- ftd.text: cell 1
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- ftd.text: cell 2
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.text: cell 3
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- ftd.text: cell 4
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- end: ftd.column
+
+-- ftd.text: row
+padding.px: 5
+margin-bottom.px: 10
+text-align: center
+border-width.px: 1
+background.solid: #fba683
+width: fill-container
+;; height: fill-container
+
+-- ftd.row:
+
+-- ftd.text: cell 5
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- ftd.text: cell 6
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- end: ftd.row
+
+-- ftd.text: columns in row
+padding.px: 5
+margin-bottom.px: 10
+text-align: center
+border-width.px: 1
+background.solid: #fba683
+width: fill-container
+;; height: fill-container
+
+
+-- ftd.row:
+width: fill-container
+background.solid: yellow
+padding.px: 10
+
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: cell 1
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+background.solid: yellow green
+margin-bottom.px: 5
+
+-- ftd.text: cell 2
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+background.solid: light blue
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: cell 1
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+background.solid: yellow green
+margin-bottom.px: 5
+
+-- ftd.text: cell 2
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+background.solid: light blue
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.text: components
+padding.px: 5
+margin-bottom.px: 10
+margin-top.px: 10
+text-align: center
+border-width.px: 1
+background.solid: #fba683
+width: fill-container
+;; height: fill-container
+
+-- component col:
+
+-- ftd.column:
+
+-- ftd.text: cell 1
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- ftd.text: cell 2
+margin.px: 10
+border-width.px: 1
+padding.px: 5
+width: fill-container
+text-align: center
+
+-- end: ftd.column
+
+-- end: col
+
+-- col: 
+-- col:
+
